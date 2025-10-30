@@ -2,7 +2,7 @@ import telebot
 import random
 import re
 
-bot = telebot.TeleBot('SEU_TOKEN_AQUI')
+bot = telebot.TeleBot('8232810183:AAFjXZj9PjHc2eZsI33GvAwcMTg_0LdHBbw')
 
 @bot.message_handler(commands=['Gerador'])
 def Gerador(mensagem):
