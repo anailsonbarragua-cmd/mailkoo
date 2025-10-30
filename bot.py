@@ -2,6 +2,9 @@ import telebot
 import random
 import re
 
+import os
+bot = telebot.TeleBot(os.environ['8232810183:AAFjXZj9PjHc2eZsI33GvAwcMTg_0LdHBbw'])
+
 bot = telebot.TeleBot('8232810183:AAFjXZj9PjHc2eZsI33GvAwcMTg_0LdHBbw')
 
 @bot.message_handler(commands=['Gerador'])
